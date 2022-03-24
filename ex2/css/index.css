@@ -7,13 +7,14 @@ header, main, footer, nav, aside, section{
     display: block;
 }
 
-
 .logo{
     background-image: url("../images/LogoB.png");
     background-repeat: no-repeat;
     background-size: contain;
+    
     height: 41px;
     width: 41px;
+    
     display: flex;
 }
 
@@ -25,15 +26,16 @@ header, main, footer, nav, aside, section{
 .logo-span, .logo-span:visited{
     margin-top: 5px;
     margin-left: 49px;
+    
     font-size: 24px;
     color: #000000;
-    
 }
 
 .side-logo{
-    background-image: url("../images/hearts5op.png");
     height: 61px;
     width: 61px;
+
+    background-image: url("../images/hearts5op.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -59,6 +61,7 @@ a, a:visited{
 .icon{
     color: #FFFFFF;
     background-color: #458FF6;
+    
     padding: 6px 10px;
     border-radius: 100px;
 }
@@ -66,12 +69,12 @@ a, a:visited{
 hr{
     width: 56px;
     height: 2px;
+    
     background: #000000;
     border-radius: 5px;
     border: none;
     margin: 14px 78px;
 }
-
 
 section{
     margin-top: 25px;
@@ -87,6 +90,7 @@ section{
     margin-right: 40px;
     font-size: 18px;
     font-weight: 400;
+    
     color: #1F1534;
     opacity: 0.5;
 }
@@ -113,13 +117,14 @@ h2{
 }
 
 .p-text{
-    margin: 20px 0;
     width: 693px;
     height: 96px;
+
     font-size: 21px;
     line-height: 32px;
-    padding-bottom: 23px;
 
+    margin: 20px 0;
+    padding-bottom: 23px;
 }
 
 .p2-text{
@@ -127,7 +132,6 @@ h2{
     width: 952px;
     font-size: 18px;
     line-height: 30px;
-
 }
 
 .image-box{
@@ -170,8 +174,10 @@ h2{
 .shoe-styles{
     height: 354px;
     width: 350px;
+
     border-radius: 20px;
     box-shadow: 10px 40px 50px 0px #E5E9F666;
+
     margin-right: 34px;
     margin-bottom: 53px;
     margin-top: 7px;
@@ -187,6 +193,7 @@ h2{
     height: 90px;
     width: 90px;
 }
+
 .shoe-styles h3{
     font-size: 24px;
 
@@ -194,10 +201,10 @@ h2{
     height: 56px;
     width: 160px;
 }
+
 .shoe-styles p{
     font-size: 16px;
     line-height: 28px;
-
 }
 
 #foot1{
@@ -210,24 +217,24 @@ h2{
 
 footer{
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
     padding-bottom: 50px;
     padding-left: 25px;
+
     color: #FFFFFF;
     font-size: 20px;
 }
-
-
 
 .footer-nav, .footer-nav:visited{
     padding-top: 50px;
     color: #FFFFFF;
 }
 
-
 .social, .social:visited{
     color: #FFFFFF;
     margin-right: 12px;
 }
+
 footer a{
     margin: 74px 0 134px 0;
 }
@@ -241,7 +248,6 @@ h6{
     font-size: 16px;
 }
 
-
 .white{
     background: #FFFFFF;
 }
@@ -251,9 +257,11 @@ hr.white{
 }
 
 .review{
-    color: #FFFFFF;
     height: 470px;
     width: 1120px;
+
+    color: #FFFFFF;
+
     border-radius: 24px;
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
 }
@@ -268,12 +276,13 @@ hr.white{
 }
 
 .quote{
-    opacity: 0.9;
     height: 120px;
     width: 420px;
+
     font-size: 19px;
     font-weight: 400;
     line-height: 30px;
+    opacity: 0.9;
 
 }
 
@@ -367,7 +376,8 @@ hr.white{
 }
 
 .container{
-    margin-top: 93px;
     display: flex;
     flex-wrap: wrap;
+
+    margin-top: 93px;
 }

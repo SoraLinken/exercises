@@ -20,7 +20,8 @@ body{
 }
 
 header{
-    padding-left: 24px;
+    width: 100%;
+    /* padding-left: 24px; */
     background-color: #517A8D;
     height: 388px;
     /* display: flex;
@@ -84,6 +85,7 @@ section{
 }
 
 footer{
+    width: 100%;
     height: 121px;
     background-color: #D6D6D6;
 }
@@ -113,15 +115,19 @@ footer{
     margin: 0 25px;}
 
 /* Layout2 */
-
+.layout2{
+    min-width: 1400px;
+    margin: 0 auto;
+    
+}
 .layout2{
     height: 2000px;
 }
 
 .layout2{
-    min-width: 1400px;
-    max-width: 100%;
+    max-width: 1400px;
 }
+
 .layout2 header{
     height: 192px;
     background-color: #212121;
@@ -130,13 +136,13 @@ footer{
     display: grid;
     grid-template-columns: 17% 59% 24%;
     width: 1400px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .layout2 > div > aside{
     background-color: #FFCDD2;
     height: 100%;
-    width: 339px;
+    width: 100%;
 }
 
 .layout2 > div > nav{
@@ -150,6 +156,7 @@ footer{
     justify-content: left;
     padding: 58px 6px;
 }
+
 
 .layout2 main{
     display: flex;
@@ -194,6 +201,7 @@ footer{
     display: grid;
     align-content: space-between;
 }
+
 .layout2 aside article{
     background-color: #c0d0e5;
     width: 128px;
@@ -217,4 +225,3 @@ footer{
 
 /* layoyt 2 main grid */
 /* 17% 59% 24% */
-

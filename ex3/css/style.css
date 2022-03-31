@@ -16,17 +16,13 @@ body{
     color: #000000;
     max-width: 1000px;
     margin: 0 auto;
-    /* width: 1000px; */
 }
 
 header{
     width: 100%;
-    /* padding-left: 24px; */
     background-color: #517A8D;
     height: 388px;
-    /* display: flex;
-    justify-content: flex-end;
-    align-items: flex-end; */
+
     position: relative;
 }
 
@@ -36,7 +32,6 @@ header .grid{
 nav{
     flex: 1;
     height: 57px;
-    /* width: 728px; */
     background-color: #FFCDD2;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -44,7 +39,6 @@ nav{
 
 .nav-wrapper{
     display: flex;
-    /* justify-content: flex-end; */
     align-items: flex-end;
 }
 
@@ -63,7 +57,6 @@ nav > a:hover, nav a.selected {
 }
  
 main{
-    /* height: 491px; */
     background-color: #212121;
     padding: 28px 0 71px 24px;
 }
@@ -217,11 +210,3 @@ footer{
     margin-left: 106px;
     margin-bottom: 34px;
 }
-
-/* 120 */
-/* 217 */
-
-/* 48 */
-
-/* layoyt 2 main grid */
-/* 17% 59% 24% */

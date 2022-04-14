@@ -66,6 +66,7 @@ body.wrap{
     display: grid;
     grid-template-columns: 27% 73%;
 }
+
 .wrap aside{
     width: 93px;
     height: 33px;
@@ -106,9 +107,10 @@ body.wrap{
     width: 338px;
     height: 338px;
     background-color: #517A8D;
-    margin: 0 25px;}
+    margin: 0 25px;
+}
 
-/* Layout2 */
+/* Layout 2 */
 .layout2{
     max-width: 1400px;
     margin: 0 auto;
@@ -120,11 +122,11 @@ body.wrap{
     height: 192px;
     background-color: #212121;
 }
+
 .wrapper-2{
     display: grid;
     grid-template-columns: 17% 59% 24%;
     width: 1400px;
-    /* margin: 0 auto; */
 }
 
 .layout2 > div > aside{
@@ -206,11 +208,7 @@ body.wrap{
     margin-bottom: 34px;
 }
 
-
-/*layout3*/
-
-
-
+/* Layout 3 */
 body.layout3{
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1000px;
@@ -256,12 +254,9 @@ body.layout3{
 
 .layout3 ul li{
     text-align: center;
-    /* padding: 21.6px 0; */
-    /* padding: 10px; */
 }
 
 .layout3 ul li:hover{
-    /* background-color: #B94A48; */
     cursor: pointer;
     color: #FFFFFF;
     font-weight: bolder;
@@ -277,7 +272,6 @@ body.layout3{
 .layout3 ul li a, ul li a:visited{
     text-decoration: none;
     color: black;
-    /* padding: 20px; */
 }
 
 .layout3 ul li a:hover{
@@ -336,7 +330,6 @@ body.layout3{
     justify-content: flex-start;
     align-content: center;
 }
-
 
 .layout3 footer{
     width: 100%;

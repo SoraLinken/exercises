@@ -4,7 +4,7 @@ createBoxes()
 let button = document.getElementById("btn");
 let box1 = document.getElementById("box-1");
 
-button.addEventListener("click", changeOpacity(box1))
+button.addEventListener("click", changeOpacity())
 
 function createFlexContainer(){
     document.getElementById('main').innerHTML = '<div></div>';
@@ -20,7 +20,7 @@ function createBox(i){
     document.getElementById('main').appendChild(box);}
 
 function createBoxes(){
-    for (let i = 1; i < 10; i++) {
+    for (let i = 1; i < 43; i++) {
         createBox(i)
     }
 }
@@ -32,20 +32,22 @@ function changeColor(box){
     console.log(box.style)
     document.getElementById(box)
 
-    let boxColor = box.style.backgroundColor;
+    let boxColor = box.style
+    
     console.log(boxColor)
-    if (boxColor == '#000000') {
-        boxColor = "red";
+    if (boxColor.backgroundColor == "rgb(255, 255, 255)") {
+        boxColor.backgroundColor = "#000000";
         console.log("yes");
     } else {
-        boxColor = 'black';
+        boxColor.backgroundColor = "#FFFFFF";
         console.log("no");
 
     }
     console.log(box.style.opacity)
 }
 
-function changeOpacity(box){
+function changeOpacity(){
+    box = document.getElementById("box-1")
     console.log("bla")
     console.log(box.style.opacity)
     let boxOpacity = box.style.opacity

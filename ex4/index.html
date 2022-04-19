@@ -24,27 +24,27 @@
             <form  id="survey-form" action="http://se.shenkar.ac.il/teach/web1/get_form3.php" method="get" onSubmit="return checkifclicked()">
 
                 <div class="form-group row">
-                    <label class="col-sm-4 col-form-label text-center">* Name</label>
+                    <label class="col-sm-4 col-form-label text-center">*Name</label>
                     <input type="text" class="form-control col-sm-8" name="fullName" placeholder="Enter your name" pattern="^[A-Za-z]{1,}\s[A-Za-z]{1,}" required>
                 </div>
 
                 <div class="form-group row">
-                    <label class="col-sm-4 col-form-label text-center">* Password</label>
+                    <label class="col-sm-4 col-form-label text-center">*Password</label>
                     <input type="password" class="form-control col-sm-8" name="pass"  pattern="^[a-zA-Z0-9_]{5,10}" placeholder="Password" required>
                 </div>
 
                 <div class="form-group row">
-                    <label class="col-sm-4 col-form-label text-center" >* Email</label>
+                    <label class="col-sm-4 col-form-label text-center" >*Email</label>
                     <input type="email" class="form-control col-sm-8" name="mail" placeholder="Enter your email" required>
                 </div>
 
                 <div class="form-group row">
-                    <label class="col-sm-4 col-form-label text-center">* Website</label>
+                    <label class="col-sm-4 col-form-label text-center">*Website</label>
                     <input type="url" class="form-control col-sm-8" name="website" placeholder="Enter your website" required>
                 </div>
 
                 <div class="form-group row">
-                    <label class="col-sm-4 col-form-label text-center">* Phone</label>
+                    <label class="col-sm-4 col-form-label text-center">*Phone</label>
                     <input type="tel" class="form-control col-sm-8" name="phone" placeholder="Enter your phone" pattern="[0-9]{9,10}" required>
                 </div>
                 
@@ -97,11 +97,23 @@
                     </ul>
                 </div>
 
-                <div class="form-group row">
-                    <label class="col-sm-4 col-form-label text-center">* Age</label>
-                    <input type="number" class="form-control col-sm-8" name="age" placeholder="Enter your age" min="21" max="28" required>
-                </div>
 
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label text-center">*Age</label>
+
+                    <select class="form-control col-sm-8" name="age" required>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23" selected>23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                    </select>
+
+                </div>
+                
                 <div class="form-group row">
                     <button class="btn btn-primary btn-block" id="submit" type="submit">Send</button>
                 </div>

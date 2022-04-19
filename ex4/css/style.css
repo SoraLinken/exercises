@@ -1,0 +1,45 @@
+/*
+    HTML tags
+*/
+
+body {
+    font-family: "Kosugi";
+    background-color: #5782c1;
+}
+
+header {
+    margin: 3vw 0vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+form {
+    background-color: #DDDDDD;
+    padding: 3vw 5vw;
+    border-style: outset;
+    border-color: #D1D1D1;
+    margin-bottom: 10vh;
+}
+
+ul {
+    list-style: none;
+}
+
+/*
+    Form styles
+*/
+
+input[type="text"], input[type="number"], input[type="email"], input[type="radio"], input[type="checkbox"], select, textarea {
+  background-color : #f2f2f2;
+  cursor: pointer;
+}
+
+input:hover, select:hover, textarea:hover {
+    background-color: white;
+}
+
+.form-group {
+    padding: 3vh 0vh;
+}
+
+textarea{
+    resize: none;
+}

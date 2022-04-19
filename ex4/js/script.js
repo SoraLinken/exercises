@@ -1,4 +1,3 @@
-
 function checkifclicked()
 {
     var checkboxs=document.getElementsByName("interests[]");
